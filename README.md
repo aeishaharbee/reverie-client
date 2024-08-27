@@ -11,9 +11,20 @@ Inside the 'client' folder, clone this repositor by running below code:
   git clone https://github.com/yourusername/reverie.git
   ```
 
-Inside the same folder, run the development server:
+Inside the same folder, install the following dependencies:
+```
+npm install
+# or
+yarn install
+# or
+pnpm install
+# or
+bun install
+```
 
-```bash
+Then, run the development server:
+
+```
 npm run dev
 # or
 yarn dev
