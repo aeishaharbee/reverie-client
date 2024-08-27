@@ -96,6 +96,9 @@ export default function AddPostModal({
       onPostCreated(newPost);
       onOpenChange(false);
 
+      setImages([]);
+      setCaption("");
+
       toast.success("Added new post");
     } catch (error) {
       console.error("Failed to create post:", error);

@@ -57,6 +57,9 @@ export default function AddAlbumModal({
       onOpenChange(false);
       toast.success("Added new album");
 
+      setPosts([]);
+      setName("");
+
       console.log({ name, postIds: posts });
     } catch (error) {
       console.error("Failed to create post:", error);
